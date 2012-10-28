@@ -25,8 +25,8 @@
 			
 			<img src="images/title3.gif" alt="" width="540" height="26" class="pad25" />
 			<?php
-$c=mysql_connect("localhost", "root", "") or die(mysql_error());
-mysql_select_db("Sales",$c);
+$c=mysql_connect('a.db.shared.orchestra.io','user_d0d277c5','V$!Q7Z$F0J1h^d' ) or die(mysql_error());
+mysql_select_db("db_d0d277c5",$c);
 $result=mysql_query("INSERT INTO shippin(name,age,email,phone,st,city,state)VALUES ('$_POST[name]','$_POST[age]','$_POST[email]','$_POST[ph]','$_POST[st]','$_POST[city]','$_POST[state]')",$c);
 if($result)
 {

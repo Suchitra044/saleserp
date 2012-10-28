@@ -1,6 +1,6 @@
 <?php
-$c=mysql_connect("localhost", "root", "") or die(mysql_error());
-mysql_select_db("Sales",$c);
+$c=mysql_connect('a.db.shared.orchestra.io', 'user_d0d277c5', 'V$!Q7Z$F0J1h^d') or die(mysql_error());
+mysql_select_db("db_d0d277c5",$c);
 $query = "create table shippin (name varchar(20),age int,email varchar(20) ,phone int,st varchar(20),city varchar(20),state varchar(20))";
 
 
