@@ -1,10 +1,10 @@
 <?php
 // Include MySQL class
-require_once('inc/mysql.class.php');
+require_once('https://github.com/Suchitra044/saleserp/inc/mysql.class.php');
 // Include database connection
-require_once('inc/global.inc.php');
+require_once('https://github.com/Suchitra044/saleserpinc/global.inc.php');
 // Include functions
-require_once('inc/functions.inc.php');
+require_once('https://github.com/Suchitra044/saleserpinc/functions.inc.php');
 // Start the session
 session_start();
 // Process actions
