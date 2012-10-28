@@ -1,6 +1,6 @@
 <?php
 $c=mysql_connect("localhost", "root", "") or die(mysql_error());
-mysql_select_db("Sales",$c);
+mysql_select_db("db_d0d277c5",$c);
 $query = "SELECT name,eid FROM Users WHERE eid='$_POST[eid]' AND pswrd='$_POST[pswrds]'"; 
 	 
 $result = mysql_query($query,$c).mysql_error();
