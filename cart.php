@@ -2,9 +2,9 @@
 // Include MySQL class
 require_once('https://github.com/Suchitra044/saleserp/inc/mysql.class.php');
 // Include database connection
-require_once('https://github.com/Suchitra044/saleserpinc/global.inc.php');
+require_once('https://github.com/Suchitra044/saleserp/inc/global.inc.php');
 // Include functions
-require_once('https://github.com/Suchitra044/saleserpinc/functions.inc.php');
+require_once('https://github.com/Suchitra044/saleserp/inc/functions.inc.php');
 // Start the session
 session_start();
 // Process actions
