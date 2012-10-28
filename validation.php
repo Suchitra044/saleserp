@@ -1,5 +1,5 @@
 <?php
-$c=mysql_connect("a.db.shared.orchestra.io", "user_d0d277c5", "V$!Q7Z$F0J1h^d") or die(mysql_error());
+$c=mysql_connect('a.db.shared.orchestra.io', 'user_d0d277c5', 'V$!Q7Z$F0J1h^d') or die(mysql_error());
 mysql_select_db("db_d0d277c5",$c);
 $email=$_POST['eid'];
 $p1=$_POST['p1'];
