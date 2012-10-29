@@ -55,7 +55,7 @@ class MySQL {
     * @param string dbName (Database to select)
     * @access public
     */
-    function MySQL ($host,$dbUser,$dbPass,$dbName) {
+    function MySQL1 ($host,$dbUser,$dbPass,$dbName) {
         $this->host=$host;
         $this->dbUser=$dbUser;
         $this->dbPass=$dbPass;
