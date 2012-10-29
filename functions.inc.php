@@ -12,7 +12,7 @@ function writeShoppingCart() {
 }
 
 function showCart() {
-	//global $db;
+	global $db;
 $cart = $_SESSION['cart'];
 	if ($cart) {
 		$items = explode(',',$cart);
