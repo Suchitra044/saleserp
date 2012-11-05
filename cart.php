@@ -10,7 +10,9 @@ require_once('functions.inc.php');
 // Start the session
 session_start();
 // Process actions
-$cart = $_SESSION['cart'];
+if ( ! isset($cart = $_SESSION['cart']))
+$cart="";
+
 $action = $_GET['action'];
 switch ($action)
  {
