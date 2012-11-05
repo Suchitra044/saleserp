@@ -112,8 +112,8 @@ echo writeShoppingCart();
 echo showCart();
 ?>
 
-<p><a href="index_session.php">continue shopping...</a></p>&nbsp;&nbsp;&nbsp;&nbsp;
-<p><a href="checkout.html">chechout...</a></p>
+<p><a href="index_session.php">CONTINUE SHOPPING...</a></p>&nbsp;&nbsp;&nbsp;&nbsp;
+<p><a href="checkout.html">CHECKOUT...</a></p>
 </div>
 
 
