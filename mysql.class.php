@@ -55,11 +55,8 @@ class MySQL {
     * @param string dbName (Database to select)
     * @access public
     */
-$host = 'a.db.shared.orchestra.io';
-$user = 'user_d0d277c5';
-$pass = 'V$!Q7Z$F0J1h^d';
-$name = 'db_d0d277c5';
-    function MySQL1 ($host,$dbUser,$dbPass,$dbName) {
+
+    function MySQL ($host,$dbUser,$dbPass,$dbName) {
         $this->host=$host;
         $this->dbUser=$dbUser;
         $this->dbPass=$dbPass;
