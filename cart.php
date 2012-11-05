@@ -8,7 +8,7 @@ require_once('functions.inc.php');
 // Start the session
 session_start();
 // Process actions
-//$cart = $_REQUEST['cart'];
+$cart = $_SESSION['cart'];
 
 $action = $_GET['action'];
 
