@@ -1,4 +1,5 @@
 <?php
+session_start();
 function writeShoppingCart() {
 	$cart = $_SESSION['cart'];
 	if (!$cart) {
