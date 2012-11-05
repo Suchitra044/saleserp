@@ -34,7 +34,8 @@ $cart = $_SESSION['cart'];
 			$output[] = '<td>&pound;'.$price.'</td>';
 			$output[] = '<td><input type="text" name="qty'.$id.'" value="'.$qty.'" size="3" maxlength="3" /></td>';
 			$output[] = '<td>&pound;'.($price * $qty).'</td>';
-			$total += $price * $qty;
+			$total=0;
+$total += $price * $qty;
 			$output[] = '</tr>';
 		}
 		$output[] = '</table>';
