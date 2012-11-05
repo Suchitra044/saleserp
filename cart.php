@@ -10,6 +10,8 @@ session_start();
 // Process actions
 $cart = $_SESSION['cart'];
 $action = $_GET['action'];
+
+
 switch ($action)
  {
 	case 'add':
