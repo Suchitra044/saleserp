@@ -1,18 +1,14 @@
 <?php
 // Include MySQL class
 require_once('mysql.class.php');
-
 // Include database connection
 require_once('global.inc.php');
 // Include functions
 require_once('functions.inc.php');
-
 // Start the session
 session_start();
 // Process actions
-if ( ! isset($cart = $_SESSION['cart']))
-$cart="";
-
+$cart = $_SESSION['cart'];
 $action = $_GET['action'];
 switch ($action)
  {
@@ -114,7 +110,7 @@ echo showCart();
 ?>
 
 <p><a href="index_session.php">continue shopping...</a></p>&nbsp;&nbsp;&nbsp;&nbsp;
-<p><a href="checkout.html">checkout...</a></p>
+<p><a href="checkout.html">chechout...</a></p>
 </div>
 
 
