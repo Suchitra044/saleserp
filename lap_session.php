@@ -27,12 +27,12 @@
 				<div class="item">
 					<img src="images/lap1.jpg" alt="" width="124" height="90" />
 					<a href="index2.html" class="name">dell</a>
-					<span>rs.35000</span>
+					<span>rs.20000</span>
 		<a href="cart.php?action=add&id=13"><img src="images/cart.gif" alt="" width="71" height="19" /></a>
 				</div>
 				<div class="item">
 					<img src="images/lap2.jpg" alt="" width="124" height="111" /> 
-<a href="index2.html" class="name">dell inspiron</a><span>rs.3600</span>
+<a href="index2.html" class="name">dell inspiron</a><span>rs.29000</span>
 <a href="cart.php?action=add&id=14"><img src="images/cart.gif" alt="" width="71" height="19" /></a>
 				</div>
 				<div class="item">
